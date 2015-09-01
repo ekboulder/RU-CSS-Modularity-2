@@ -1,0 +1,30 @@
+/* ADD YOUR STYLES HERE */
+
+.boxes {
+	text-align: center;
+}
+
+.boxes img{
+	margin: 20px;
+}
+
+.boxesandtext {
+	text-align: center;
+}
+
+.boxesandtext img, .boxesandtext p, .boxesandtext ol{
+	display: inline-block;
+	float: left;
+	margin: 20px;
+}
+
+.VerticalParent {
+	height: 300px;
+	line-height: 300px;
+}
+
+.VerticalChild {
+	vertical-align: middle;
+}
+
+
