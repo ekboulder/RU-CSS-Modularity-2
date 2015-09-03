@@ -1,5 +1,7 @@
 /* ADD YOUR STYLES HERE */
 
+/*<============== Horizontally Spaced =============>*/
+
 .boxes {
 	text-align: center;
 }
@@ -18,6 +20,8 @@
 	margin: 20px;
 }
 
+/*<============== Vertically Spaced =============>*/
+
 .VerticalParent {
 	height: 300px;
 	line-height: 300px;
@@ -27,4 +31,137 @@
 	vertical-align: middle;
 }
 
+.Wraper {
+	padding: 50px 0px 50px 0px;
+}
 
+/*<============== Horizontal List =============>*/
+
+.HList {
+	padding: 0px;
+	clear: left;
+}
+
+.HList li {
+	float: left;
+	list-style-type: none;
+
+}
+
+/*<============== Buttons =============>*/
+
+.Button {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	background-color: #ED828A;
+	border-radius: 5px;
+	border: 0px;
+	padding: 0px;
+}
+
+.B1 {
+	height: 70px;
+	width: 200px;
+	line-height: 70px;
+	font-size: 1.5em;
+}
+
+.B2 {
+	height: 40px;
+	width: 150px;
+	line-height: 40px;
+	font-size: 1em;
+}
+
+.B3 {
+	height: 1.5em;
+	width: 40px;
+	line-height: 1.5em;
+	font-size: 1em;
+}
+
+/*<============== Navigation =============>*/
+
+.highlight:hover {
+	color: blue;
+}
+
+.NavigationBar {
+	background-color: #ED828A;
+	height: 40px;
+	border-radius: 5px;
+}
+
+/*<============== Pagination =============>*/
+
+.Pagination li  {
+	border-bottom: solid 2px;
+	border-color: #ED828A;
+	padding: 5px;
+	margin: 5px;
+}
+
+.Pagination li:first-child, .Pagination li:last-child  {
+	border-bottom: none;
+}
+
+.Pagination li:nth-child(5) {
+	border-color: gray;
+	color: gray;
+}
+
+.Pagination a  {
+	color: #ED828A;
+	text-decoration: none;
+	text-align: center;
+}
+
+/*<============== Comment Stream =============>*/
+
+.Comment {
+	clear: left;
+}
+.Comment div {
+	float: left;
+	margin: 5px;
+}
+
+.Comment time {
+	color: gray;
+	font-size: 0.7em;
+}
+
+/*<============== Tabs =============>*/
+
+.Tabs div {
+	border: solid 1px;
+	border-color: blue;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 5px;
+	margin: 5px  5px -1px 5px;
+}
+
+.Tabs .Active {
+	border-bottom-color: white;
+}
+
+.Tabs a {
+	text-decoration: none;
+	color: blue;
+	font-style: bold;
+
+}
+
+.TabContent {
+	clear: left;
+	border: solid 1px;
+	border-color: blue;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 0px;
+	z-index: -1;
+
+}
